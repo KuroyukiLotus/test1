@@ -99,7 +99,7 @@ const ProductsCategory = () => {
                         })
                       }
                     >
-                      <option value="">Select Category</option>
+                      <option value="">Select Category Keyboard</option>
                       {categories.map((category) => (
                         <option key={category} value={category}>
                           {category}
